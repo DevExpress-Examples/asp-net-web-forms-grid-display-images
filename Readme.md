@@ -14,7 +14,7 @@ This example demonstrates how to load an image into a cell based on another cell
 
 ## Implementation Details
 
-The `Image` column declares [DataItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.DataItemTemplate) that contains `img` element.
+The `Image` column declares a [DataItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.DataItemTemplate) that contains the `img` element.
 
 ```
 <dx:GridViewDataColumn Caption="Image (Template)" >
@@ -23,7 +23,7 @@ The `Image` column declares [DataItemTemplate](https://docs.devexpress.com/AspNe
     </DataItemTemplate>
 </dx:GridViewDataColumn>
 ```
-An image URL is determined basen on the row value in the `Value` column.
+An image URL is determined based on the row value in the `Value` column.
 
 ```
 protected string GetImageName(object dataValue) {
