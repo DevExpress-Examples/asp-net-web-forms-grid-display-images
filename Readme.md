@@ -6,7 +6,7 @@
 
 # Grid View for ASP.NET Web Forms - How to display an image in a grid cell
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1967/)**
+**[[Run Online]](https://codecentral.devexpress.com/128539304/)**
 <!-- run online end -->
 
 This example demonstrates how to load an image into a cell based on another cell value.
