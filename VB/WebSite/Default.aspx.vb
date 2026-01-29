@@ -1,11 +1,11 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Data
 
 Partial Public Class _Default
 	Inherits System.Web.UI.Page
+
 	Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
 		gv.DataSource = GetDateTable()
 	End Sub
@@ -28,7 +28,7 @@ Partial Public Class _Default
 	Protected Function GetImageName(ByVal dataValue As Object) As String
 		Dim val As String = String.Empty
 		Try
-			val = CStr(dataValue)
+			val = DirectCast(dataValue, String)
 		Catch
 		End Try
 
